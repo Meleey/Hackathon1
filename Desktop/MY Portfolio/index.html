@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http="equiv=X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <title>Personal Portfolio Website - Software Development</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa6197feb4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/milly logo best.jpg">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                    
+                    
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web Designer</p>
+            <h1>Hello, I am <span></span>Millicent Awinja</h1>
+
+        </div>
+    </div>
+</div>
+<!-- ---------about------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/milly black.jpeg ">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a passionate web developer, I thrive on creating dynamic and user-friendly websites that enhance the online experience. With a solid foundation in HTML, CSS, and JavaScript, I enjoy turning innovative ideas into responsive designs and seamless functionality. My keen eye for detail and commitment to best practices ensure that each project I undertake not only meets client expectations but also adheres to modern web standards. I continuously seek to improve my skills and stay updated with the latest trends in technology, making me a versatile and forward-thinking developer in the ever-evolving digital landscape.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Designer</span><br>Designing Websites</li>
+                        <li><span>Web Development</span><br>Database Designs</li>
+                        <li><span>Database Design Module</span><br>Data Definition Language, DDL</li>
+                    </ul>
+
+
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025 January - Current</span><br>Power Learn Project</li>
+                        <li><span>2025 March - To Date</span><br>Web Design Internship</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>Kenya Institute of Management studies</li>
+                        <li><span>2022</span><br> MBA Business Management</li>
+                        
+                    </ul>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!-- ----------Services------ -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Transform your online presence with our innovative web design services, tailored to create stunning, user-friendly websites that engage and convert visitors.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Database Design</h2>
+                <p>I specialize in creating efficient and scalable database designs that meet the unique needs of each project.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                <h2>DDL Design</h2>
+                <p>With extensive experience in Data Definition Language (DDL), I excel in designing and managing robust database structures that ensure data integrity and optimize performance.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div> 
+
+    </div>
+    
+ </div>
+ <!-- ------------------Portfolio------------------ -->
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+               <img src="images/web design img.jpg">
+               <div class="layer">
+                <h3>web design link</h3>
+                <p>Discover the latest trends and strategies in creating visually appealing and user-friendly websites by visiting our web design resource here</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            
+               </div>
+            
+                    
+            </div>
+
+            <div class="work">
+                <img src="images/database pic.jpg">
+                <div class="layer">
+                    <h3>database link</h3>
+                    <p>To explore best practices and techniques for effective database management, check out our detailed resource on databases here</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+                       
+             </div>
+
+             <div class="work">
+                <img src="images/DDL img.png">
+                <div class="layer">
+                    <h3>DDL link</h3>
+                    <p>For more information on how to effectively manage your database structure, visit our comprehensive guide on Data Definition Language (DDL)here</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+                     
+             </div>
+        </div>
+    </div>
+  </div>
+  <!-- ---------------Contact------------------- -->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>awinjamillicent1@gmail.com</p>
+
+                <p><i class="fa-solid fa-phone"></i>0780262702</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="" CLASS="btn btn2">Download CV</a>
+
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright: @Millicent. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+
+   </div>
+   
+   
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }        
+</script>
+</body>
+</html>
+
+
+
+
+    
+
+
